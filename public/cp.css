@@ -1,0 +1,18 @@
+.cover {
+    border-bottom: 1px solid #c0c0c0;
+    margin: 3px;
+}
+
+.type {
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+    width: 8em;
+    margin-left: 20px;
+}
+
+.com {
+    margin-left: 20px;
+}

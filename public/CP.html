@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コード置き場</title>
+    <script src="./CP.js" defer></script>
+    <link rel="stylesheet" href="./CP.css">
+</head>
+<body>
+    <div id="cp"></div>
+    <div>
+        種類<br>
+        <input type="radio" name="radio" id="C" value="1">
+        <label for="C">C言語</label>
+
+        <label for="code">　　　コード：</label>
+        <!--input type="text" id="code"-->
+        <textarea id="code"></textarea>
+
+        <label for="date">投稿日：</label>
+        <input type="date" name="date" id="date">
+
+        <label for="name">名前：</label>
+        <input type="text" id="name">
+
+        <label for="comment">コメント：</label>
+        <input type="text" id="comment">
+        <button type="button" id="post">送信</button><br>
+        
+        <input type="radio" name="radio" id="html" value="2">
+        <label for="html">html</label><br>
+        <input type="radio" name="radio" id="JS" value="3">
+        <label for="JS">JavaScript</label><br>
+        <input type="radio" name="radio" id="Py" value="4">
+        <label for="Py">Python</label><br>
+
+       
+    </div>
+    <div id="check">
+        <button type="button" id="check">投稿チェック</button>
+    </div>
+</body>
+</html>
